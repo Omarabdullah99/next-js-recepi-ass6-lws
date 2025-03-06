@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Hero = () => {
     const data= recepie
     const result= data[4]
-    console.log("result",result)
+    // console.log("result",result)
   return (
     <section class="mb-16 bg-orange-50">
     <div class="grid md:grid-cols-2 gap-8 items-center">
