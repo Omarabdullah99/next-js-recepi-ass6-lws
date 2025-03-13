@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="container mx-auto px-4 py-4 shadow-lg fixed top-0 bg-white z-50">
     <nav className="flex justify-between items-center">
-      <Link href="/index.html" className="text-3xl font-bold">
+      <Link href="/" className="text-3xl font-bold">
         <Image src="/lws-kitchen.png" className="h-10" height={100} width={100} alt='logo' />
       </Link>
       <ul className="hidden md:flex space-x-6">

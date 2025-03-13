@@ -21,7 +21,7 @@ const sortedCategories = Object.entries(categoryCount)
 
 // 3. HTML-এ জনপ্রিয় ক্যাটেগরি দেখানো
 const popularCategories = categories.filter(cat => sortedCategories.includes(cat.id));
-console.log('popu',popularCategories)
+// console.log('popu',popularCategories)
 
   return (
     <section class="mb-16">
